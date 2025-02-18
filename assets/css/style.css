@@ -111,7 +111,13 @@ header {
 .open {
     display: none;
 }
+.close i {
+    margin-left: 20px;
+}
 
+.close {
+    display: none;
+}
 /* banner section start  */
 
 .banner {
@@ -1090,6 +1096,9 @@ header {
     }
 
     .open {
+        display: block !important;
+    }
+     .close {
         display: block !important;
     }
 
