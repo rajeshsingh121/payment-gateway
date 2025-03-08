@@ -112,6 +112,10 @@ header {
     display: none;
 }
 
+.close{
+    display: none;
+}
+
 /* banner section start  */
 
 .banner {
@@ -1144,7 +1148,11 @@ header {
     .open {
         display: block !important;
     }
-
+    
+     .close {
+        display: block !important;
+    }
+    
     .banner-left-cont h2 {
         line-height: 60px;
     }
